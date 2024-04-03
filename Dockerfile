@@ -21,4 +21,4 @@ ENV CACHE_CLEANUP_INTERVAL=120
 ENTRYPOINT ["/bin/sh"]
 
 # 将 CMD 设置为执行 'cd /app && ls'，这将在容器启动时切换到 /app 目录并列出其内容
-CMD ["-c", "cd /opt/alist && ./alist server && ./alist admin random"]
+CMD ["-c", "cd /opt/alist && ./alist server --no-prefix && ./alist admin random"]
