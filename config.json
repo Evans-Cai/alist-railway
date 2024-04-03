@@ -6,7 +6,7 @@
     "user": "$PGUSER",
     "password": "$PGPASSWORD",
     "host": "$PGHOST",
-    "port": $PGPORT,
+    "port": "$PGPORT",
     "name": "$PGDATABASE",
     "table_prefix": "x_",
     "db_file": "/opt/alist/data/data.db",
@@ -18,7 +18,7 @@
     "key_file": ""
   },
   "cache": {
-    "expiration": $CACHE_EXPIRATION,
-    "cleanup_interval": $CACHE_CLEANUP_INTERVAL
+    "expiration": "$CACHE_EXPIRATION",
+    "cleanup_interval": "$CACHE_CLEANUP_INTERVAL"
   }
 }
