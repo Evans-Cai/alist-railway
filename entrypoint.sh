@@ -28,4 +28,6 @@ cat >/opt/alist/data/config.json <<EOF
 EOF
 
 cd /opt/alist
-./alist -conf /opt/alist/data/config.json
+# ./alist -conf /opt/alist/data/config.json
+./alist server
+./alist admin random
