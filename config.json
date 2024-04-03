@@ -2,12 +2,12 @@
   "address": "0.0.0.0",
   "port": 5244,
   "database": {
-    "type": "${DB_TYPE}",
-    "user": "${PGUSER}",
-    "password": "${PGPASSWORD}",
-    "host": "${PGHOST}",
-    "port": "${PGPORT}",
-    "name": "${PGDATABASE}",
+    "type": "$DB_TYPE",
+    "user": "$PGUSER",
+    "password": "$PGPASSWORD",
+    "host": "$PGHOST",
+    "port": "$PGPORT",
+    "name": "$PGDATABASE",
     "table_prefix": "x_",
     "db_file": "/opt/alist/data/data.db",
     "ssl_mode": "require"
@@ -18,7 +18,7 @@
     "key_file": ""
   },
   "cache": {
-    "expiration": "${CACHE_EXPIRATION}",
-    "cleanup_interval": "${CACHE_CLEANUP_INTERVAL}"
+    "expiration": "$CACHE_EXPIRATION",
+    "cleanup_interval": "$CACHE_CLEANUP_INTERVAL"
   }
 }
