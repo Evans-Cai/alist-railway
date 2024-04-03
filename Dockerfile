@@ -2,8 +2,8 @@ FROM xhofe/alist:latest
 LABEL MAINTAINER="i@nn.ci"
 WORKDIR /opt/alist/
 # RUN chmod 777 /opt/alist/data
-ADD config.json /opt/alist/data/config.json
-RUN chmod +x /opt/alist/data/config.json
+# ADD config.json /opt/alist/data/config.json
+# RUN chmod +x /opt/alist/data/config.json
 
 # ADD entrypoint.sh /entrypoint.sh
 # RUN chmod +x /entrypoint.sh
